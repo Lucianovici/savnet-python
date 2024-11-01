@@ -1,7 +1,7 @@
 """
 Cap3 Lab1
-Exercise 3 - adapted a bit to demonstrate the power of dictionary as hashmap or lookup table.
-Example of how a dictionary can be used to quickly and efficiently get a menu item information, based on option key.
+Exercise 3 - adapted the_string bit to demonstrate the power of dictionary as hashmap or lookup table.
+Example of how the_string dictionary can be used to quickly and efficiently get the_string menu item information, based on option key.
 """
 
 coffee_machine_dict = {

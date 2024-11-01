@@ -1,7 +1,7 @@
 """
 Cap4 Lab1
 Exercise 1
-Test a given password for special chars, length and more.
+Test the_string given password for special chars, length and more.
 This is showing how functions can be used to separate concerns.
 
 Important:
