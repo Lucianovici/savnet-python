@@ -1,0 +1,187 @@
+{
+  "appConfig": {
+    "appName": "SampleApp",
+    "version": "1.0.0",
+    "releaseDate": "2024-11-06"
+  },
+  "features": {
+    "authentication": {
+      "enabled": true,
+      "methods": [
+        "email",
+        "google",
+        "facebook"
+      ]
+    },
+    "notifications": {
+      "push": true,
+      "email": true,
+      "sms": false
+    }
+  },
+  "users": [
+    {
+      "userId": "1",
+      "username": "john_doe",
+      "preferences": {
+        "theme": "dark",
+        "notifications": {
+          "email": true,
+          "push": false,
+          "sms": true
+        }
+      },
+      "subscriptions": [
+        "basic",
+        "newsletter"
+      ]
+    },
+    {
+      "userId": "2",
+      "username": "jane_smith",
+      "preferences": {
+        "theme": "light",
+        "notifications": {
+          "email": false,
+          "push": true,
+          "sms": false
+        }
+      },
+      "subscriptions": [
+        "premium",
+        "newsletter",
+        "alerts"
+      ]
+    },
+    {
+      "userId": "3",
+      "username": "alice_wonder",
+      "preferences": {
+        "theme": "dark",
+        "notifications": {
+          "email": true,
+          "push": true,
+          "sms": false
+        }
+      },
+      "subscriptions": [
+        "basic"
+      ]
+    },
+    {
+      "userId": "4",
+      "username": "bob_builder",
+      "preferences": {
+        "theme": "light",
+        "notifications": {
+          "email": false,
+          "push": false,
+          "sms": true
+        }
+      },
+      "subscriptions": [
+        "premium",
+        "alerts"
+      ]
+    },
+    {
+      "userId": "5",
+      "username": "charlie_chaplin",
+      "preferences": {
+        "theme": "dark",
+        "notifications": {
+          "email": true,
+          "push": false,
+          "sms": true
+        }
+      },
+      "subscriptions": [
+        "newsletter"
+      ]
+    },
+    {
+      "userId": "6",
+      "username": "diana_ross",
+      "preferences": {
+        "theme": "light",
+        "notifications": {
+          "email": false,
+          "push": true,
+          "sms": false
+        }
+      },
+      "subscriptions": [
+        "basic",
+        "newsletter"
+      ]
+    },
+    {
+      "userId": "7",
+      "username": "edward_snow",
+      "preferences": {
+        "theme": "dark",
+        "notifications": {
+          "email": true,
+          "push": true,
+          "sms": false
+        }
+      },
+      "subscriptions": [
+        "premium",
+        "newsletter"
+      ]
+    },
+    {
+      "userId": "8",
+      "username": "fiona_apple",
+      "preferences": {
+        "theme": "light",
+        "notifications": {
+          "email": false,
+          "push": false,
+          "sms": true
+        }
+      },
+      "subscriptions": [
+        "basic"
+      ]
+    },
+    {
+      "userId": "9",
+      "username": "george_clooney",
+      "preferences": {
+        "theme": "dark",
+        "notifications": {
+          "email": true,
+          "push": false,
+          "sms": false
+        }
+      },
+      "subscriptions": [
+        "premium",
+        "alerts"
+      ]
+    },
+    {
+      "userId": "10",
+      "username": "harry_potter",
+      "preferences": {
+        "theme": "light",
+        "notifications": {
+          "email": false,
+          "push": true,
+          "sms": true
+        }
+      },
+      "subscriptions": [
+        "newsletter",
+        "alerts"
+      ]
+    }
+  ],
+  "server": {
+    "host": "localhost",
+    "port": 8080,
+    "ssl": false
+  }
+}
